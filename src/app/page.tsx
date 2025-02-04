@@ -108,10 +108,10 @@ export default function Home() {
             Fill the form below <br className="sm:hidden visible" /> to create
             your team.
           </h3>
-          <div className="z-50 sm:w-[740px] w-[335px] sm:h-[3570px] h-[3800px] bg-white mb-7 rounded-xl">
+          <div className="z-50 sm:w-[740px] w-[335px] sm:h-[3600px] h-[3770px] bg-white mb-7 rounded-xl">
             <iframe
               src="https://docs.google.com/forms/d/e/1FAIpQLSdv_XO0BYSfunSEB9pqb62P5K3DYudQlVD8Ozd9V-lBf6DEWg/viewform?embedded=true"
-              className="sm:w-[740px] sm:h-[3570px] w-[335px] h-[3800px]"
+              className="sm:w-[740px] sm:h-[3600px] w-[335px] h-[3770px]"
             >
               Loading…
             </iframe>
