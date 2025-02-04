@@ -28,7 +28,7 @@ export default function Home() {
 
   useEffect(() => {
     const generateStars = () => {
-      return [...Array(45)].map(() => ({
+      return [...Array(25)].map(() => ({
         top: `${Math.random() * 100}%`,
         left: `${Math.random() * 100}%`,
         size: `${Math.random() * 4 + 1}px`,
@@ -50,8 +50,8 @@ export default function Home() {
             height: star.size,
           }}
           animate={{
-            x: [0, 350, -350, 200, -200, 0],
-            y: [0, -350, 350, -200, 200, 0],
+            x: [0, 50, -50, 50, -50, 0],
+            y: [0, -50, 50, -50, 50, 0],
           }}
           transition={{
             duration: Math.random() * 15 + 30,
