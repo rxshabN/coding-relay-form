@@ -1,21 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Bruno+Ace&family=JetBrains+Mono:ital@0;1&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+html {
+  scroll-behavior: smooth;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+* {
+  padding: 0;
+  margin: 0;
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+  overflow-y: auto;
+  color: white;
+  font-family: "Bruno Ace", serif;
+  font-weight: 400;
+  font-style: normal;
+  background: linear-gradient(
+    to bottom,
+    #000000,
+    #1e1d26,
+    #252234,
+    #4b4080,
+    #604bc7
+  );
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #4b4b4b;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, #9333ea, #ec4899);
+  border-radius: 10px;
 }
