@@ -3,8 +3,8 @@ import "./globals.css";
 import Footer from "@/components/footer";
 
 export const metadata: Metadata = {
-  title: "Coding Relay - Team Info",
-  description: "Team registration portal for Coding Relay event by SIAM-VIT.",
+  title: "Coding Relay - Feedback Form",
+  description: "Feedback form portal for Coding Relay'25 by SIAM-VIT.",
 };
 
 export default function RootLayout({
