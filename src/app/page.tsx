@@ -103,15 +103,15 @@ export default function Home() {
             Coding Relay
           </h1>
         </div>
-        <div className="w-auto h-auto mt-5">
+        <div className="min-w-screen h-auto mt-5 flex flex-col items-center justify-center">
           <h3 className="sm:text-2xl mb-10 text-xl">
-            Fill the form below <br className="sm:hidden visible" /> to create
-            your team.
+            Thank you for participating. <br className="sm:hidden visible" />{" "}
+            Kindly fill this feedback form.
           </h3>
-          <div className="z-50 sm:w-[740px] w-[335px] sm:h-[3600px] h-[3900px] bg-white mb-7 rounded-xl">
+          <div className="z-50 sm:w-[710px] w-[335px] sm:h-[1550px] h-[2550px] bg-white mb-7 rounded-xl">
             <iframe
-              src="https://docs.google.com/forms/d/e/1FAIpQLSdv_XO0BYSfunSEB9pqb62P5K3DYudQlVD8Ozd9V-lBf6DEWg/viewform?embedded=true"
-              className="sm:w-[740px] sm:h-[3600px] w-[335px] h-[3900px]"
+              src="https://docs.google.com/forms/d/e/1FAIpQLSeTAhKWugZi_arKlI3SNcZePpUAKpmCDnlqInGEpzv2zrYLsw/viewform?embedded=true"
+              className="sm:w-[710px] sm:h-[1550px] w-[335px] h-[2550px]"
             >
               Loading…
             </iframe>
